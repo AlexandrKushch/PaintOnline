@@ -1,0 +1,12 @@
+services:
+  web:
+    build: ./client
+    container_name: web
+    ports:
+      - 3000:3000
+
+  app:
+    build: ./server
+    container_name: app
+    ports:
+      - 8080:8080
