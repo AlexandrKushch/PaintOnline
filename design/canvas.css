@@ -1,0 +1,19 @@
+.background {
+    height: 80vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F8FF;
+  }
+  canvas {
+    z-index: 1;
+    border-radius: 15px;
+    /*pattern*/
+    opacity: 1;
+    background-image:  radial-gradient(#C2BAD9 1.6px, transparent 1.6px), radial-gradient(#C2BAD9 1.6px, #FCFDFF 1.6px);
+    background-size: 50px 50px;
+    background-position: 0 0,25px 25px;
+  box-shadow: 0 5px 19px #DBE6FF;
+
+  }
