@@ -1,0 +1,54 @@
+.toolbar {
+  display: flex;
+  min-height: 10vh;
+  min-width: 100vw;
+  background-color: #F5F8FF;
+  justify-content: center;
+  align-items: center;
+  }
+.footer {
+  display: flex;
+  min-height: 10vh;
+  min-width: 100vw;
+  background-color: #F5F8FF;
+  justify-content: center;
+  align-items: center
+}
+.btn {
+  height: 7vh;
+  width: 7vh;
+  background-color: #FCFDFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-size: cover;
+  margin-left: 3vh;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 5px 19px #DBE6FF;
+  outline: none;
+  z-index: 100;
+  }
+  .btn:active {
+    height: 8vh;
+    width: 8vh;
+  }
+  .icon{
+    height: 4vh;
+    width: 4vh;
+    object-fit: contain;
+  }
+  .text{
+    text-align: justify;
+    font-size: .9vh;
+    margin-bottom: .9vh;
+
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+      margin: 0; 
+  }
